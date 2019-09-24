@@ -1,0 +1,24 @@
+AllCops:
+  Exclude:
+    - config/**/*
+    - db/**/*
+    - bin/**/*
+    - vendor/**/*
+Documentation:
+  Enabled: false
+AccessorMethodName:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/BlockLength:
+  Enabled: false
+UselessAssignment:
+  Enabled: false
+Naming/FileName:
+  Enabled: false
+Style/MissingRespondToMissing:
+  Enabled: false
+Style/NumericLiterals:
+  Enabled: false
+Layout/AlignArguments:
+  EnforcedStyle: with_fixed_indentation
